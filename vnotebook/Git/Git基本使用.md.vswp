@@ -11,6 +11,20 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了**分
 * 速度更快，特别是熟悉git命令后
 * 指定和若干不同的远端代码仓库进行交互
 ### 工作流程
+#### 基本步骤
+正确步骤：
+1. git init //初始化仓库
+
+2. git add .(文件name) //添加文件到本地仓库
+
+3. git commit -m "first commit" //添加文件描述信息
+
+4. git remote add origin + 远程仓库地址 //链接远程仓库，创建主分支
+
+5. git pull origin master // 把本地仓库的变化连接到远程仓库主分支
+
+6. git push -u origin master //把本地仓库的文件推送到远程仓库
+
 一般工作流程如下：
 + 克隆 Git 资源作为工作目录。
 + 在克隆的资源上添加或修改文件。
